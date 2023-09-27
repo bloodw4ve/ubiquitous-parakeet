@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	dbURL        = "postgres://postgres:PASSWORD@localhost:5432/comments" // write your postgresdb password
+	dbURL        = "postgres://postgres:PASSWORD@db_comments:5432/comments" // write your postgresdb password
 	commentsAddr = ":8081"
 )
 

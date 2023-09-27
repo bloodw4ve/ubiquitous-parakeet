@@ -11,7 +11,7 @@ import (
 
 const (
 	configURL = "./config.json"
-	conn      = "postgres://postgres:PASSWORD@localhost:5432/news" // write your postgresdb password
+	conn      = "postgres://postgres:PASSWORD@db_news:5432/news" // write your postgresdb password
 	newsAddr  = ":8080"
 )
 
