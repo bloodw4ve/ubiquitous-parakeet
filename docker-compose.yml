@@ -46,7 +46,7 @@ services:
     volumes:
       - ./news:/docker-entrypoint-initdb.d
     ports:
-      - "5432:5432"
+      - "50000:5432"
 
   db_comments:
     image: postgres:15.3
@@ -58,5 +58,5 @@ services:
     volumes:
       - ./comments:/docker-entrypoint-initdb.d
     ports:
-      - "5432:5432"
+      - "50001:5432"
 
